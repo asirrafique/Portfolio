@@ -73,6 +73,75 @@ const MernIcon = () => (
   </div>
 );
 
+const AiAgentsIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg
+      className="w-14 h-14 md:w-16 md:h-16"
+      viewBox="0 0 128 128"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="64" cy="64" r="52" fill="#6A5ACD" />
+      <circle cx="64" cy="64" r="30" fill="#0a0a0a" />
+
+      <circle cx="52" cy="56" r="6" fill="#ffffff" />
+      <circle cx="76" cy="56" r="6" fill="#ffffff" />
+
+      <path
+        d="M48 76 Q64 88 80 76"
+        fill="none"
+        stroke="#ffffff"
+        strokeWidth="5"
+        strokeLinecap="round"
+      />
+
+      <circle cx="64" cy="12" r="6" fill="#6A5ACD" />
+      <circle cx="116" cy="64" r="6" fill="#6A5ACD" />
+      <circle cx="64" cy="116" r="6" fill="#6A5ACD" />
+      <circle cx="12" cy="64" r="6" fill="#6A5ACD" />
+    </svg>
+
+    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">
+      AI Agents
+    </span>
+  </div>
+);
+
+const RagIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg
+      className="w-14 h-14 md:w-16 md:h-16"
+      viewBox="0 0 128 128"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect x="18" y="18" width="92" height="92" rx="18" fill="#8A2BE2" />
+
+      <rect
+        x="36"
+        y="34"
+        width="56"
+        height="42"
+        rx="6"
+        fill="#0a0a0a"
+      />
+
+      <path
+        d="M44 46h40M44 56h32M44 66h24"
+        stroke="#ffffff"
+        strokeWidth="5"
+        strokeLinecap="round"
+      />
+
+      <circle cx="48" cy="92" r="7" fill="#ffffff" />
+      <circle cx="64" cy="92" r="7" fill="#ffffff" />
+      <circle cx="80" cy="92" r="7" fill="#ffffff" />
+    </svg>
+
+    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">
+      RAG
+    </span>
+  </div>
+);
+
 const About = () => {
   return (
     <section id="about" className="bg-[#ff2a2a] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
@@ -115,8 +184,8 @@ const About = () => {
             dangerouslySetInnerHTML={{ __html: aboutContent.bio }}
           />
 
-          {/* Horizontal Skills Row */}
-         <div className="flex items-center gap-10 mt-8">
+        <div className="flex items-center gap-8 md:gap-10 mt-8 flex-wrap">
+
   <div
     data-aos="zoom-in"
     data-aos-delay="300"
@@ -140,6 +209,23 @@ const About = () => {
   >
     <MernIcon />
   </div>
+
+  <div
+    data-aos="zoom-in"
+    data-aos-delay="750"
+    className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl"
+  >
+    <AiAgentsIcon />
+  </div>
+
+  <div
+    data-aos="zoom-in"
+    data-aos-delay="900"
+    className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl"
+  >
+    <RagIcon />
+  </div>
+
 </div>
 
         </div>
