@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This portfolio showcases my projects, technical skills, certifications, and journey as a **Full Stack Developer** and **AI Enthusiast**.
 
-🌐 **Live Demo:** https://portfolio-asir3.vercel.app/
+🌐 **Live Demo:** https://asirportfolio.netlify.app/
 
 ---
 
