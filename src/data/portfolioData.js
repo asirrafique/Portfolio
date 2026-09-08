@@ -294,7 +294,7 @@ export const projects = [
     ],
     links: {
       github: "https://github.com/asirrafique/TravelMind-AI",
-      demo: null,
+      demo: "https://travelmind-ai-02im.onrender.com/",
     },
     isFlagship: false,
   },
