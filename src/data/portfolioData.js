@@ -8,7 +8,7 @@ export const personalInfo = {
   name: "Asir Rafique",
   firstName: "Asir",
   brandName: "Asir Rafique",
-  title: "Full Stack & AI Developer",
+  title: "AI / GenAI & Full-Stack Developer",
   location: "Patna, India",
   phone: "+91 82105-04882",
   emails: {
@@ -16,7 +16,7 @@ export const personalInfo = {
     secondary: "asirrafique@gmail.com",
   },
   summary:
-    "Computer Science graduate and aspiring Software Developer with strong skills in Full-Stack Web Development and modern web applications. Experienced in building scalable solutions using React, Node.js, Express.js, MongoDB, and integrating intelligent features to create user-focused products. Passionate about solving real-world problems, writing clean and maintainable code, and continuously learning modern technologies.",
+    "B.Tech CSE (AI & ML) graduate and aspiring AI Engineer focused on building intelligent, production-oriented applications. Experienced with Python, FastAPI, LangChain, LangGraph, MCP, RAG, multi-agent systems, LLM tool calling, React.js, Node.js, PostgreSQL, MongoDB, Redis, Docker, and Kubernetes.",
   resumeUrl: "/MY_RESUME.pdf",
 };
 
@@ -28,9 +28,9 @@ export const socialLinks = {
 
 export const heroContent = {
   greeting: "Hi, I'm Asir Rafique",
-  titleHighlight: "Full Stack & AI Developer",
+  titleHighlight: "AI / GenAI & Full-Stack Developer",
   subtitle:
-    "Building scalable web applications and intelligent AI-powered solutions with modern Full-Stack technologies and Agentic AI.",
+    "Building intelligent AI systems, agentic workflows, and scalable full-stack applications with modern LLM and cloud-native technologies.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
@@ -41,8 +41,14 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Asir Rafique</span>, a Full Stack & AI Developer and Computer Science graduate passionate about building modern web applications and intelligent AI-powered solutions. I enjoy creating scalable, user-centric applications with clean, efficient, and maintainable code while exploring Agentic AI, RAG, and modern AI technologies.`,
-  techStack: ["Python", "JavaScript", "MERN Stack", "AI Agents", "RAG"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Asir Rafique</span>, an AI / GenAI & Full-Stack Developer and B.Tech CSE (AI & ML) graduate passionate about building intelligent systems and modern web applications. I enjoy creating scalable, user-centric applications while working with Agentic AI, RAG, MCP, multi-agent workflows, and modern full-stack technologies.`,
+  techStack: [
+    "Python",
+    "JavaScript",
+    "AI Agents",
+    "RAG",
+    "LangGraph",
+  ],
 };
 
 export const skillsContent = {
@@ -84,8 +90,8 @@ export const technicalSkills = {
     {
       title: "Programming Languages",
       skills: [
-        { name: "JavaScript", level: 92 },
         { name: "Python", level: 85 },
+        { name: "JavaScript", level: 92 },
         { name: "C++", level: 80 },
         { name: "HTML5", level: 95 },
         { name: "CSS3", level: 92 },
@@ -93,7 +99,7 @@ export const technicalSkills = {
     },
 
     {
-      title: "Frontend",
+      title: "Frontend & Backend",
       skills: [
         { name: "React.js", level: 90 },
         { name: "React Router", level: 88 },
@@ -102,17 +108,9 @@ export const technicalSkills = {
         { name: "Bootstrap", level: 85 },
         { name: "Axios", level: 88 },
         { name: "Vite", level: 88 },
-        { name: "React Markdown", level: 85 },
-        { name: "KaTeX", level: 82 },
-      ],
-    },
-
-    {
-      title: "Backend",
-      skills: [
         { name: "Node.js", level: 90 },
         { name: "Express.js", level: 90 },
-        { name: "EJS", level: 85 },
+        { name: "FastAPI", level: 82 },
         { name: "REST APIs", level: 90 },
         { name: "JWT Authentication", level: 88 },
         { name: "Socket.IO", level: 88 },
@@ -124,24 +122,27 @@ export const technicalSkills = {
       skills: [
         { name: "RAG", level: 85 },
         { name: "MCP", level: 82 },
+        { name: "LangChain", level: 80 },
+        { name: "LangGraph", level: 80 },
         { name: "Gemini API", level: 88 },
+        { name: "Groq", level: 82 },
         { name: "LLMs", level: 85 },
         { name: "AI Agents", level: 85 },
         { name: "Agentic AI", level: 82 },
+        { name: "Multi-Agent Systems", level: 80 },
         { name: "Tool Calling", level: 85 },
         { name: "Embeddings", level: 82 },
         { name: "Vector Search", level: 82 },
-        { name: "Prompt Engineering", level: 88 },
-        { name: "LangChain", level: 75 },
-        { name: "Responses API", level: 75 },
       ],
     },
 
     {
-      title: "Databases",
+      title: "Databases & Caching",
       skills: [
+        { name: "PostgreSQL", level: 82 },
         { name: "MongoDB", level: 90 },
         { name: "MySQL", level: 80 },
+        { name: "Redis", level: 78 },
       ],
     },
 
@@ -149,13 +150,36 @@ export const technicalSkills = {
       title: "Tools & Platforms",
       skills: [
         { name: "Git", level: 90 },
+        { name: "GitHub", level: 90 },
         { name: "Docker", level: 85 },
+        { name: "Docker Compose", level: 82 },
+        { name: "Kubernetes", level: 78 },
+        { name: "kubectl", level: 78 },
         { name: "GitHub Actions", level: 82 },
         { name: "CI/CD", level: 82 },
         { name: "Render", level: 90 },
-        { name: "Nginx", level: 80 },
         { name: "Postman", level: 88 },
-        { name: "bcryptjs", level: 85 },
+        { name: "Trivy", level: 75 },
+      ],
+    },
+
+    {
+      title: "AI & Data APIs",
+      skills: [
+        { name: "Tavily", level: 80 },
+        { name: "AviationStack", level: 75 },
+        { name: "OpenWeather", level: 80 },
+      ],
+    },
+
+    {
+      title: "Core Concepts",
+      skills: [
+        { name: "Data Structures & Algorithms", level: 82 },
+        { name: "OOPs", level: 85 },
+        { name: "DBMS", level: 82 },
+        { name: "Operating Systems", level: 78 },
+        { name: "Computer Networks", level: 78 },
       ],
     },
   ],
@@ -214,71 +238,86 @@ export const softSkillsList = [
 
 export const projects = [
   {
-    id: "novagpt",
-    number: "01",
-    badge: "🚀 Flagship Project",
-    title: "NovaGPT",
-    description:
-      "A production-ready full-stack AI assistant built with React.js, Node.js, Express.js, MongoDB, and Google Gemini API. Features an MCP-based agent architecture, RAG, document-based Q&A, dynamic tool discovery and execution, secure authentication, Docker, and CI/CD deployment.",
-    techTags: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Google Gemini API",
-      "RAG",
-      "MCP",
-      "AI Agents",
-      "Tool Calling",
-      "Embeddings",
-      "Vector Search",
-      "Docker",
-      "GitHub Actions",
-    ],
-    links: {
-      github: "https://github.com/asirrafique/NovaGPT",
-      demo: "https://novagpt-frontend-4fht.onrender.com/",
-    },
-    isFlagship: true,
+  id: "novagpt",
+  number: "01",
+  badge: "🚀 Flagship Project",
+  title: "NovaGPT",
+  description:
+    "A production-ready full-stack AI assistant built with React.js, Node.js, Express.js, MongoDB, and Google Gemini API. Features an MCP-based agent architecture, RAG, document-based Q&A, dynamic tool discovery and execution, secure authentication, Docker, Kubernetes, and CI/CD deployment.",
+  techTags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Google Gemini API",
+    "LangChain",
+    "RAG",
+    "MCP",
+    "AI Agents",
+    "Tool Calling",
+    "Embeddings",
+    "Vector Search",
+    "Docker",
+    "Docker Compose",
+    "Kubernetes",
+    "kubectl",
+    "GitHub Actions",
+    "Trivy",
+  ],
+  links: {
+    github: "https://github.com/asirrafique/NovaGPT",
+    demo: "https://novagpt-frontend-4fht.onrender.com/",
   },
+  isFlagship: true,
+},
 
   {
-    id: "meetlify",
+    id: "travelmind-ai",
     number: "02",
-    title: "Meetlify",
+    badge: "🤖 Multi-Agent AI",
+    title: "TravelMind AI",
     description:
-      "A video conferencing platform with secure authentication, meeting rooms, video/audio controls, screen sharing, and real-time communication designed for seamless online collaboration.",
+      "A production-oriented multi-agent AI travel planner built with Python, FastAPI, LangGraph, Groq, PostgreSQL, and Redis. Coordinates specialized agents for flight research, hotel research, weather, itinerary planning, validation, and final response synthesis through MCP-integrated tools.",
     techTags: [
-      "React",
-      "Node.js",
-      "Socket.io",
-      "WebRTC",
-      "MongoDB",
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "LangChain",
+      "Groq",
+      "MCP",
+      "PostgreSQL",
+      "Redis",
+      "Tavily",
+      "AviationStack",
+      "OpenWeather",
+      "Docker",
     ],
     links: {
-      github: "https://github.com/asirrafique/Meetlify",
-      demo: "https://meetlify-frontend.onrender.com/",
+      github: "https://github.com/asirrafique/TravelMind-AI",
+      demo: null,
     },
     isFlagship: false,
   },
 
   {
-    id: "wanderlust",
+    id: "meetlify",
     number: "03",
-    title: "Wanderlust",
+    badge: "📹 Real-time Video Conferencing",
+    title: "Meetlify",
     description:
-      "A full-stack hotel booking platform inspired by Airbnb. Users can create, edit, and manage property listings with secure authentication, interactive maps, cloud image uploads, and RESTful APIs.",
+      "A real-time video conferencing platform built with the MERN stack and Socket.IO, featuring WebRTC video/audio calls, multi-user rooms, screen sharing, live chat, secure authentication, and persistent meeting history.",
     techTags: [
+      "React.js",
       "Node.js",
       "Express.js",
       "MongoDB",
-      "EJS",
-      "Cloudinary",
-      "Mapbox",
+      "Socket.IO",
+      "WebRTC",
+      "JWT Auth",
     ],
     links: {
-      github: "https://github.com/asirrafique/Wanderlust",
-      demo: "https://wanderlust-ne0q.onrender.com/",
+      github: "https://github.com/asirrafique/Meetlify",
+      demo: "https://meetlify-frontend.onrender.com/",
     },
     isFlagship: false,
   },
