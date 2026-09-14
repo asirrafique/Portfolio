@@ -54,24 +54,7 @@ I love creating clean user interfaces, solving challenging problems, and continu
 
 ### Deployment
 
-* Vercel
-
----
-
-# 📬 Contact
-
-**Asir Rafique**
-
-📧 Email: [asirrafique1@gmail.com](mailto:asirrafique1@gmail.com)
-
-💼 LinkedIn:
-https://www.linkedin.com/in/asir-rafique07
-
-💻 GitHub:
-https://github.com/asirrafique
-
-🌐 Portfolio:
-https://portfolio-asir3.vercel.app/
+* Netlify
 
 ---
 
