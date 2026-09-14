@@ -153,7 +153,7 @@ export const technicalSkills = {
     },
 
     {
-      title: "Databases & Caching",
+      title: "Databases",
       skills: [
         { name: "PostgreSQL", level: 82 },
         { name: "MongoDB", level: 90 },
@@ -163,7 +163,7 @@ export const technicalSkills = {
     },
 
     {
-      title: "DevOps & Tools",
+      title: "Tools & Platforms",
       skills: [
         { name: "Git", level: 90 },
         { name: "GitHub", level: 90 },
