@@ -85,6 +85,7 @@ export const skillsContent = {
 // Technical Skills
 // ============================================================
 
+
 export const technicalSkills = {
   categories: [
     {
@@ -99,7 +100,7 @@ export const technicalSkills = {
     },
 
     {
-      title: "Frontend & Backend",
+      title: "Frontend Development",
       skills: [
         { name: "React.js", level: 90 },
         { name: "React Router", level: 88 },
@@ -108,6 +109,12 @@ export const technicalSkills = {
         { name: "Bootstrap", level: 85 },
         { name: "Axios", level: 88 },
         { name: "Vite", level: 88 },
+      ],
+    },
+
+    {
+      title: "Backend Development",
+      skills: [
         { name: "Node.js", level: 90 },
         { name: "Express.js", level: 90 },
         { name: "FastAPI", level: 82 },
@@ -124,15 +131,24 @@ export const technicalSkills = {
         { name: "MCP", level: 82 },
         { name: "LangChain", level: 80 },
         { name: "LangGraph", level: 80 },
-        { name: "Gemini API", level: 88 },
-        { name: "Groq", level: 82 },
         { name: "LLMs", level: 85 },
         { name: "AI Agents", level: 85 },
-        { name: "Agentic AI", level: 82 },
         { name: "Multi-Agent Systems", level: 80 },
+        { name: "Agentic AI", level: 82 },
         { name: "Tool Calling", level: 85 },
         { name: "Embeddings", level: 82 },
         { name: "Vector Search", level: 82 },
+      ],
+    },
+
+    {
+      title: "AI Platforms & APIs",
+      skills: [
+        { name: "Google Gemini API", level: 88 },
+        { name: "Groq", level: 82 },
+        { name: "Tavily", level: 80 },
+        { name: "AviationStack", level: 75 },
+        { name: "OpenWeather", level: 80 },
       ],
     },
 
@@ -147,7 +163,7 @@ export const technicalSkills = {
     },
 
     {
-      title: "Tools & Platforms",
+      title: "DevOps & Tools",
       skills: [
         { name: "Git", level: 90 },
         { name: "GitHub", level: 90 },
@@ -160,15 +176,6 @@ export const technicalSkills = {
         { name: "Render", level: 90 },
         { name: "Postman", level: 88 },
         { name: "Trivy", level: 75 },
-      ],
-    },
-
-    {
-      title: "AI & Data APIs",
-      skills: [
-        { name: "Tavily", level: 80 },
-        { name: "AviationStack", level: 75 },
-        { name: "OpenWeather", level: 80 },
       ],
     },
 
